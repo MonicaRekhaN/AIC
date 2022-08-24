@@ -1,0 +1,31 @@
+pip install tf-nightly-gpu
+pip install tensorflow-gpu==2.0.0
+
+
+<!-- <img src="{{url_for(r'C:\Model Deployment\New folder\image-captioning-keras-resnet-main\static\', filename='file.jpg')}}" alt="image" height=340px> -->
+
+
+kaggle datasets download -d hsankesara/flickr-image-dataset
+
+
+
+C:\Model Deployment\New folder\image-captioning-keras-resnet-main\requirements.txt
+requirements.txt
+\
+
+pip install tf-nightly-gpu
+
+
+
+git remote add origin https://github.com/MonicaRekhaN/fastapi_heroku.git
+git branch -M main
+git push -u origin main
+
+Open Command prompt:
+cd <folder_path>
+gcloud init
+gcloud app deploy app.yaml --project aic-lstm
+gcloud app logs read
+
+File upload done.
+Updating service [default]...|WARNING: Found incompatible dependencies: "tpot 0.11.7 has requirement scikit-learn>=0.22.0, but you have scikit-learn 0.20.0.\ntensorflow 2.9.1 has requirement keras<2.10.0,>=2.9.0rc0, but you have keras 2.3.1."
