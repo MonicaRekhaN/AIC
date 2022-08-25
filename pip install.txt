@@ -26,6 +26,7 @@ cd <folder_path>
 gcloud init
 gcloud app deploy app.yaml --project aic-lstm
 gcloud app logs read
+gcloud config set app/cloud_build_timeout 1200s
 
 File upload done.
 Updating service [default]...|WARNING: Found incompatible dependencies: "tpot 0.11.7 has requirement scikit-learn>=0.22.0, but you have scikit-learn 0.20.0.\ntensorflow 2.9.1 has requirement keras<2.10.0,>=2.9.0rc0, but you have keras 2.3.1."
